@@ -1,0 +1,3 @@
+- functional prrgramming จะเป็นการเขียนโปรแกรมแบบที่มี function เป็นฐาน และในการเขียนfunction 
+    ไม่ควรเขียนfunctionที่ไปเปลี่ยนตัวorigin data
+- pure function คือfunctionที่มีการการันตีว่า inputเดียวกันจะต้องได้outputเดียวกัน
