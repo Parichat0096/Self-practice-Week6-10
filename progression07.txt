@@ -1,0 +1,9 @@
+-DOM คือ “ตัวแทนเอกสาร (Document) ที่อยู่ในหน่วยความจำของ browser” ที่ทำให้ JavaScript สามารถเข้าถึงและจัดการ 
+    โครงสร้างของ HTML / XML ได้ DOMไม่ขึ้นกับภาษาอะไรเลย(ใช้aiช่วยสรุปความหมาย)
+-node type หลักๆ จะมี5node คือ element node, attribute node, text node, comment node, document node
+-document node คือ root node เป็นnode ที่ไม่มีอยู่จริง สร้างขึ้นเพื่อคลุมnode ทั้งหมด
+-ข้อแตกต่างของelement node กับattribute node(ใช้aiช่วยสรุปข้อต่าง)
+    element node คือแท็ก HTML แต่ละตัวที่เป็นโครงสร้างของเอกสาร เช่น <p>, <div>, <a>, <img> element HTML
+                 เป็น root elementเสมอ Element Node สามารถมี Attribute Node และ Text Node อยู่ข้างในได้
+    attribute node คือ คุณสมบัติ ที่กำหนดเพิ่มให้ Element เช่น id="para1" หรือ class="msg" แต่ Attribute 
+                 ไม่ถือว่าเป็นลูก (child) ของ Element แต่อยู่ใน “property ของ Element” แทน
