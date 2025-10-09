@@ -1,0 +1,11 @@
+-การเข้าถึง (Access) และค้นหา (Select) Element ใน DOM 
+    อย่าง -getElementById("id") คือ เลือก element จาก id
+         -getElementsByName("name") คือ เลือก element จาก name attribute (ได้หลายตัว)
+         -querySelector("selector") คือ เลือก element แรกสุด ที่ตรงกับ CSS selector
+         -querySelectorAll("selector") คือ เลือก ทุก element ที่ตรงกับ selector (ได้ NodeList)
+-การเข้าถึงและวนลูปดูโหนด อย่าง childNodes, children, firstElementChild
+-การสร้าง (Create) และจัดการ (Manipulate) โครงสร้าง DOM
+        -createElement("tag") คือการสร้างelementใหม่
+        -setAttribute("class", "value") คือการ ตั้งค่า attribute ให้ element
+        -insertBefore(newNode, referenceNode) คือ แทรก node ใหม่ก่อน node ที่กำหนด
+        -replaceChild(newNode, oldNode) คือ แทนที่ node เดิมด้วย node ใหม่
