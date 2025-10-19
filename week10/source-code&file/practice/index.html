@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Settings Form</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+select, input[type="color"] {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#saveBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#resetBtn {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ตั้งค่าหน้าเว็บ</h2>
+
+    <label for="bgColor">Background Color:</label>
+    <input type="color" id="bgColor" value="#ffffff">
+
+    <label for="fontColor">Font Color:</label>
+    <input type="color" id="fontColor" value="#000000">
+
+    <label for="fontSize">Font Size:</label>
+    <select id="fontSize">
+      <option value="small">Small</option>
+      <option value="medium" selected>Medium</option>
+      <option value="large">Large</option>
+    </select>
+
+    <button id="saveBtn">Save</button>
+    <button id="resetBtn">Reset</button>
+    <script src="main.js"></script>
+  </div>
+</body>
+</html>
